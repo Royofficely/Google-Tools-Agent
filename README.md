@@ -22,7 +22,9 @@ cd google-tools-agent
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate  
+
+# On Windows, use `venv\Scripts\activate`
 ```
 
 ### 3. Configure Google Credentials 🔑
@@ -56,7 +58,7 @@ Follow these steps to create your `credentials.json` file:
 ### 4. Install Dependencies 📦
 
 ```bash
-python agentim.py install
+pip install -r requirements.txt
 ```
 
 ### 5. Set Up API Keys and Authentication 🔐
